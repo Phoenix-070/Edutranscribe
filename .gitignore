@@ -1,0 +1,159 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+pipenv.lock
+
+# pytest
+.cache
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# VSCode settings
+.vscode/
+
+# Node modules and build outputs for frontend and frontend-enchanced
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.turbo/
+frontend-enchanced/node_modules/
+frontend-enchanced/dist/
+frontend-enchanced/build/
+frontend-enchanced/.turbo/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Python virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Backend model files (large binaries)
+backend/models/*.gguf
+backend/models/*.Q4_K_M.gguf
+models/
+
+# Backend temp papers and temp_papers directory at root
+backend/temp_papers/
+temp_papers/
+
+# Backend vectorstore files
+backend/vectorstore/
+
+# Sensitive files
+backend/key.py
+
+# Misc
+*.sqlite3
+*.db
+*.sqlite
+*.bak
+*.backup
+*.swp
+*.swo
+*.tmp
+*.temp

@@ -1,0 +1,48 @@
+# --- Web Framework ---
+fastapi
+uvicorn
+python-multipart
+python-dotenv
+jsonify
+
+# --- Transcription ---
+youtube-transcript-api
+openai-whisper
+yt-dlp
+
+# --- Text-to-Speech ---
+pyttsx3
+gTTS
+playsound==1.2.2
+
+# --- Translation ---
+googletrans==4.0.0-rc1
+deep-translator
+
+# --- Summarization / LLM https://youtu.be/gl1r1XV0SLw?si=iOUTmQG2a7D_s2RA---
+google-generativeai
+transformers
+torch
+sentencepiece
+
+# --- NLP / Embeddings / Chunking ---
+sentence-transformers
+nltk
+
+# --- File Parsing ---
+pdfminer.six
+python-docx
+PyMuPDF
+
+# --- File Export ---
+fpdf
+pysrt
+markdown
+
+# --- Vector DB for RAG Chatbot ---
+faiss-cpu  # Or faiss-gpu if using CUDA
+langchain
+huggingface-hub
+pypdf
+llama-cpp-python
+python-multipart
